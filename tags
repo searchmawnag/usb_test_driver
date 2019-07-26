@@ -1,0 +1,610 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BLK_SZ	testApp.c	39;"	d	file:
+CBW_SZ	testApp.c	40;"	d	file:
+CC	Makefile	/^CC:= $(CCTOOLS)gcc$/;"	m
+CCTOOLS	Makefile	/^CCTOOLS=arm-linux-gnueabihf-$/;"	m
+CSW_SZ	testApp.c	41;"	d	file:
+DEVICE	testApp.c	37;"	d	file:
+DRIVER_VERSION	uvcvideo.h	139;"	d
+ERROR	testApp.h	28;"	d
+ERROR	usbtest.h	30;"	d
+GENERIC	testApp.h	16;"	d
+GENERIC	usbtest.h	18;"	d
+GUARD_BYTE	testApp.h	33;"	d
+GUARD_BYTE	usbtest.h	35;"	d
+INTERRUPT_RATE	testApp.h	26;"	d
+INTERRUPT_RATE	usbtest.h	28;"	d
+KERNELDIR	Makefile	/^KERNELDIR=\/home\/seeing-zynq\/tools\/kernel\/$/;"	m
+LD	Makefile	/^LD:= $(CCTOOLS)ld$/;"	m
+LINE_SZ	testApp.c	14;"	d	file:
+LOG_FILE	testApp.c	38;"	d	file:
+MAX_SGLEN	testApp.h	34;"	d
+MAX_SGLEN	usbtest.h	36;"	d
+NUM_SUBCASES	usbtest.c	1289;"	d	file:
+NUM_SUBCASES	usbtest.h	142;"	d
+PWD	Makefile	/^PWD := $(shell pwd) $/;"	m
+SIMPLE_IO_TIMEOUT	testApp.h	12;"	d
+SIMPLE_IO_TIMEOUT	usbtest.h	6;"	d
+SURARCH	Makefile	/^SURARCH=arm$/;"	m
+TBUF_SIZE	usbtest.h	115;"	d
+USBTEST_DEV_MINOR_BASE	usbtest.c	2604;"	d	file:
+USBTEST_REQUEST_32	testApp.h	79;"	d
+USBTEST_REQUEST_32	usbtest.h	9;"	d
+USBTEST_REQUEST_64	testApp.h	81;"	d
+USBTEST_REQUEST_64	usbtest.h	11;"	d
+UVC_BUF_STATE_ACTIVE	uvcvideo.h	/^	UVC_BUF_STATE_ACTIVE	= 2,$/;"	e	enum:uvc_buffer_state
+UVC_BUF_STATE_DONE	uvcvideo.h	/^	UVC_BUF_STATE_DONE	= 4,$/;"	e	enum:uvc_buffer_state
+UVC_BUF_STATE_ERROR	uvcvideo.h	/^	UVC_BUF_STATE_ERROR	= 5,$/;"	e	enum:uvc_buffer_state
+UVC_BUF_STATE_IDLE	uvcvideo.h	/^	UVC_BUF_STATE_IDLE	= 0,$/;"	e	enum:uvc_buffer_state
+UVC_BUF_STATE_QUEUED	uvcvideo.h	/^	UVC_BUF_STATE_QUEUED	= 1,$/;"	e	enum:uvc_buffer_state
+UVC_BUF_STATE_READY	uvcvideo.h	/^	UVC_BUF_STATE_READY	= 3,$/;"	e	enum:uvc_buffer_state
+UVC_CTRL_CONTROL_TIMEOUT	uvcvideo.h	148;"	d
+UVC_CTRL_STREAMING_TIMEOUT	uvcvideo.h	149;"	d
+UVC_ENTITY_FLAG_DEFAULT	uvcvideo.h	255;"	d
+UVC_ENTITY_IS_ITERM	uvcvideo.h	31;"	d
+UVC_ENTITY_IS_OTERM	uvcvideo.h	34;"	d
+UVC_ENTITY_IS_TERM	uvcvideo.h	30;"	d
+UVC_ENTITY_IS_UNIT	uvcvideo.h	29;"	d
+UVC_ENTITY_TYPE	uvcvideo.h	28;"	d
+UVC_FMT_FLAG_COMPRESSED	uvcvideo.h	169;"	d
+UVC_FMT_FLAG_STREAM	uvcvideo.h	170;"	d
+UVC_GUID_FORMAT_BA81	uvcvideo.h	97;"	d
+UVC_GUID_FORMAT_BGR3	uvcvideo.h	112;"	d
+UVC_GUID_FORMAT_BY8	uvcvideo.h	94;"	d
+UVC_GUID_FORMAT_GBRG	uvcvideo.h	100;"	d
+UVC_GUID_FORMAT_GRBG	uvcvideo.h	103;"	d
+UVC_GUID_FORMAT_H264	uvcvideo.h	119;"	d
+UVC_GUID_FORMAT_I420	uvcvideo.h	73;"	d
+UVC_GUID_FORMAT_M420	uvcvideo.h	115;"	d
+UVC_GUID_FORMAT_MJPEG	uvcvideo.h	58;"	d
+UVC_GUID_FORMAT_NV12	uvcvideo.h	67;"	d
+UVC_GUID_FORMAT_RGBP	uvcvideo.h	109;"	d
+UVC_GUID_FORMAT_RGGB	uvcvideo.h	106;"	d
+UVC_GUID_FORMAT_RW10	uvcvideo.h	131;"	d
+UVC_GUID_FORMAT_UYVY	uvcvideo.h	76;"	d
+UVC_GUID_FORMAT_Y10	uvcvideo.h	85;"	d
+UVC_GUID_FORMAT_Y12	uvcvideo.h	88;"	d
+UVC_GUID_FORMAT_Y12I	uvcvideo.h	125;"	d
+UVC_GUID_FORMAT_Y16	uvcvideo.h	91;"	d
+UVC_GUID_FORMAT_Y8	uvcvideo.h	82;"	d
+UVC_GUID_FORMAT_Y800	uvcvideo.h	79;"	d
+UVC_GUID_FORMAT_Y8I	uvcvideo.h	122;"	d
+UVC_GUID_FORMAT_YUY2	uvcvideo.h	61;"	d
+UVC_GUID_FORMAT_YUY2_ISIGHT	uvcvideo.h	64;"	d
+UVC_GUID_FORMAT_YV12	uvcvideo.h	70;"	d
+UVC_GUID_FORMAT_Z16	uvcvideo.h	128;"	d
+UVC_GUID_UVC_CAMERA	uvcvideo.h	42;"	d
+UVC_GUID_UVC_MEDIA_TRANSPORT_INPUT	uvcvideo.h	48;"	d
+UVC_GUID_UVC_OUTPUT	uvcvideo.h	45;"	d
+UVC_GUID_UVC_PROCESSING	uvcvideo.h	51;"	d
+UVC_GUID_UVC_SELECTOR	uvcvideo.h	54;"	d
+UVC_HANDLE_ACTIVE	uvcvideo.h	/^	UVC_HANDLE_ACTIVE	= 1,$/;"	e	enum:uvc_handle_state
+UVC_HANDLE_PASSIVE	uvcvideo.h	/^	UVC_HANDLE_PASSIVE	= 0,$/;"	e	enum:uvc_handle_state
+UVC_MAX_CONTROL_MAPPINGS	uvcvideo.h	152;"	d
+UVC_MAX_CONTROL_MENU_ENTRIES	uvcvideo.h	153;"	d
+UVC_MAX_PACKETS	uvcvideo.h	144;"	d
+UVC_MAX_STATUS_SIZE	uvcvideo.h	146;"	d
+UVC_QUEUE_DISCONNECTED	uvcvideo.h	385;"	d
+UVC_QUEUE_DROP_CORRUPTED	uvcvideo.h	386;"	d
+UVC_QUIRK_BUILTIN_ISIGHT	uvcvideo.h	159;"	d
+UVC_QUIRK_FIX_BANDWIDTH	uvcvideo.h	162;"	d
+UVC_QUIRK_FORCE_Y8	uvcvideo.h	166;"	d
+UVC_QUIRK_IGNORE_SELECTOR_UNIT	uvcvideo.h	161;"	d
+UVC_QUIRK_PROBE_DEF	uvcvideo.h	163;"	d
+UVC_QUIRK_PROBE_EXTRAFIELDS	uvcvideo.h	158;"	d
+UVC_QUIRK_PROBE_MINMAX	uvcvideo.h	157;"	d
+UVC_QUIRK_RESTORE_CTRLS_ON_INIT	uvcvideo.h	165;"	d
+UVC_QUIRK_RESTRICT_FRAME_RATE	uvcvideo.h	164;"	d
+UVC_QUIRK_STATUS_INTERVAL	uvcvideo.h	156;"	d
+UVC_QUIRK_STREAM_NO_FID	uvcvideo.h	160;"	d
+UVC_TERM_DIRECTION	uvcvideo.h	26;"	d
+UVC_TERM_INPUT	uvcvideo.h	24;"	d
+UVC_TERM_OUTPUT	uvcvideo.h	25;"	d
+UVC_TRACE_CALLS	uvcvideo.h	631;"	d
+UVC_TRACE_CAPTURE	uvcvideo.h	630;"	d
+UVC_TRACE_CLOCK	uvcvideo.h	637;"	d
+UVC_TRACE_CONTROL	uvcvideo.h	628;"	d
+UVC_TRACE_DESCR	uvcvideo.h	627;"	d
+UVC_TRACE_FORMAT	uvcvideo.h	629;"	d
+UVC_TRACE_FRAME	uvcvideo.h	632;"	d
+UVC_TRACE_PROBE	uvcvideo.h	626;"	d
+UVC_TRACE_STATS	uvcvideo.h	636;"	d
+UVC_TRACE_STATUS	uvcvideo.h	634;"	d
+UVC_TRACE_SUSPEND	uvcvideo.h	633;"	d
+UVC_TRACE_VIDEO	uvcvideo.h	635;"	d
+UVC_URBS	uvcvideo.h	142;"	d
+UVC_WARN_MINMAX	uvcvideo.h	639;"	d
+UVC_WARN_PROBE_DEF	uvcvideo.h	640;"	d
+UVC_WARN_XU_GET_RES	uvcvideo.h	641;"	d
+WARNING	testApp.h	30;"	d
+WARNING	usbtest.h	32;"	d
+_USB_VIDEO_H_	uvcvideo.h	2;"	d
+__USBTEST_H_	testApp.h	2;"	d
+__USBTEST_H_	usbtest.h	2;"	d
+__this_module	usbtest.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	usbtest.mod.c	/^__used$/;"	v	file:
+__used	usbtest.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__uvc_query_ctrl	uvc_video.c	/^static int __uvc_query_ctrl(struct uvc_device *dev, __u8 query, __u8 unit,$/;"	f	file:
+active	uvcvideo.h	/^	atomic_t active;$/;"	m	struct:uvc_streaming
+alloc_sglist	usbtest.c	/^alloc_sglist(int nents, int max, int vary, struct usbtest_dev *dev, int pipe)$/;"	f	file:
+alt	usbtest.h	/^	int			alt;$/;"	m	struct:usbtest_info
+async_wq	uvcvideo.h	/^	struct workqueue_struct *async_wq;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::workqueue_struct
+autoconf	usbtest.h	/^	unsigned		autoconf:1;$/;"	m	struct:usbtest_info
+bControlSize	uvcvideo.h	/^			__u8  bControlSize;$/;"	m	struct:uvc_entity::__anon1::__anon2
+bControlSize	uvcvideo.h	/^			__u8  bControlSize;$/;"	m	struct:uvc_entity::__anon1::__anon3
+bControlSize	uvcvideo.h	/^			__u8  bControlSize;$/;"	m	struct:uvc_entity::__anon1::__anon5
+bControlSize	uvcvideo.h	/^			__u8  bControlSize;$/;"	m	struct:uvc_entity::__anon1::__anon7
+bControlSize	uvcvideo.h	/^	__u8 bControlSize;$/;"	m	struct:uvc_streaming_header
+bEndpointAddress	uvcvideo.h	/^	__u8 bEndpointAddress;$/;"	m	struct:uvc_streaming_header
+bFrameIndex	uvcvideo.h	/^	__u8  bFrameIndex;$/;"	m	struct:uvc_frame
+bFrameIntervalType	uvcvideo.h	/^	__u8  bFrameIntervalType;$/;"	m	struct:uvc_frame
+bNrInPins	uvcvideo.h	/^	__u8 bNrInPins;$/;"	m	struct:uvc_entity
+bNumControls	uvcvideo.h	/^			__u8  bNumControls;$/;"	m	struct:uvc_entity::__anon1::__anon7
+bNumFormats	uvcvideo.h	/^	__u8 bNumFormats;$/;"	m	struct:uvc_streaming_header
+bStillCaptureMethod	uvcvideo.h	/^	__u8 bStillCaptureMethod;$/;"	m	struct:uvc_streaming_header
+bTerminalLink	uvcvideo.h	/^	__u8 bTerminalLink;$/;"	m	struct:uvc_streaming_header
+bTransportModeSize	uvcvideo.h	/^			__u8  bTransportModeSize;$/;"	m	struct:uvc_entity::__anon1::__anon3
+bTriggerSupport	uvcvideo.h	/^	__u8 bTriggerSupport;$/;"	m	struct:uvc_streaming_header
+bTriggerUsage	uvcvideo.h	/^	__u8 bTriggerUsage;$/;"	m	struct:uvc_streaming_header
+baSourceID	uvcvideo.h	/^	__u8 *baSourceID;$/;"	m	struct:uvc_entity
+bmCapabilities	uvcvideo.h	/^	__u8  bmCapabilities;$/;"	m	struct:uvc_frame
+bmControls	uvcvideo.h	/^			__u8  *bmControls;$/;"	m	struct:uvc_entity::__anon1::__anon2
+bmControls	uvcvideo.h	/^			__u8  *bmControls;$/;"	m	struct:uvc_entity::__anon1::__anon3
+bmControls	uvcvideo.h	/^			__u8  *bmControls;$/;"	m	struct:uvc_entity::__anon1::__anon5
+bmControls	uvcvideo.h	/^			__u8  *bmControls;$/;"	m	struct:uvc_entity::__anon1::__anon7
+bmControlsType	uvcvideo.h	/^			__u8  *bmControlsType;$/;"	m	struct:uvc_entity::__anon1::__anon7
+bmInfo	uvcvideo.h	/^	__u8 bmInfo;$/;"	m	struct:uvc_streaming_header
+bmTransportModes	uvcvideo.h	/^			__u8  *bmTransportModes;$/;"	m	struct:uvc_entity::__anon1::__anon3
+bmVideoStandards	uvcvideo.h	/^			__u8  bmVideoStandards;$/;"	m	struct:uvc_entity::__anon1::__anon5
+bmaControls	uvcvideo.h	/^	__u8 *bmaControls;$/;"	m	struct:uvc_streaming_header
+bpp	uvcvideo.h	/^	__u8 bpp;$/;"	m	struct:uvc_format
+buf	usbtest.h	/^	u8			*buf;$/;"	m	struct:usbtest_dev
+buf	uvcvideo.h	/^	struct uvc_buffer *buf;$/;"	m	struct:uvc_decode_op	typeref:struct:uvc_decode_op::uvc_buffer
+buf	uvcvideo.h	/^	struct vb2_v4l2_buffer buf;$/;"	m	struct:uvc_buffer	typeref:struct:uvc_buffer::vb2_v4l2_buffer
+buf_used	uvcvideo.h	/^	unsigned int buf_used;$/;"	m	struct:uvc_video_queue
+buffer_offset	usbtest.c	/^static inline unsigned long buffer_offset(void *buf)$/;"	f	file:
+bulk	uvcvideo.h	/^	} bulk;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::__anon8
+bytesused	uvcvideo.h	/^	unsigned int bytesused;$/;"	m	struct:uvc_buffer
+cached	uvcvideo.h	/^	     cached:1,$/;"	m	struct:uvc_control
+camera	uvcvideo.h	/^		} camera;$/;"	m	union:uvc_entity::__anon1	typeref:struct:uvc_entity::__anon1::__anon2
+caps	uvcvideo.h	/^	u32 caps;				\/* V4L2 chain-wide caps *\/$/;"	m	struct:uvc_video_chain
+cbw_read10	testApp.c	/^static char cbw_read10[CBW_SZ] = {$/;"	v	file:
+ch9_postconfig	usbtest.c	/^static int ch9_postconfig(struct usbtest_dev *dev)$/;"	f	file:
+chain	uvcvideo.h	/^	struct list_head chain;		\/* Entity as part of a video device$/;"	m	struct:uvc_entity	typeref:struct:uvc_entity::list_head
+chain	uvcvideo.h	/^	struct uvc_video_chain *chain;$/;"	m	struct:uvc_fh	typeref:struct:uvc_fh::uvc_video_chain
+chain	uvcvideo.h	/^	struct uvc_video_chain *chain;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_video_chain
+chains	uvcvideo.h	/^	struct list_head chains;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::list_head
+check_guard_bytes	usbtest.c	/^static int check_guard_bytes(struct usbtest_dev *tdev, struct urb *urb)$/;"	f	file:
+clock	uvcvideo.h	/^	} clock;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_clock
+clock_frequency	uvcvideo.h	/^	__u32 clock_frequency;$/;"	m	struct:uvc_device
+colorspace	uvcvideo.h	/^	__u8 colorspace;$/;"	m	struct:uvc_format
+complete	usbtest.h	/^	struct completion	complete;$/;"	m	struct:ctrl_ctx	typeref:struct:ctrl_ctx::completion
+complete	usbtest.h	/^	struct completion	complete;$/;"	m	struct:queued_ctx	typeref:struct:queued_ctx::completion
+complicated_alloc_urb	usbtest.c	/^static struct urb *complicated_alloc_urb($/;"	f	file:
+complicated_callback	usbtest.c	/^static void complicated_callback(struct urb *urb)$/;"	f	file:
+controls	uvcvideo.h	/^	struct uvc_control *controls;$/;"	m	struct:uvc_entity	typeref:struct:uvc_entity::uvc_control
+count	usbtest.h	/^	unsigned		count;$/;"	m	struct:ctrl_ctx
+count	usbtest.h	/^	unsigned		count;$/;"	m	struct:transfer_context
+count	uvcvideo.h	/^		unsigned int count;$/;"	m	struct:uvc_streaming::uvc_clock
+ctrl	uvcvideo.h	/^	struct uvc_streaming_control ctrl;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_streaming_control
+ctrl_complete	usbtest.c	/^static void ctrl_complete(struct urb *urb)$/;"	f	file:
+ctrl_ctx	usbtest.h	/^struct ctrl_ctx {$/;"	s
+ctrl_mutex	uvcvideo.h	/^	struct mutex ctrl_mutex;		\/* Protects ctrl.info *\/$/;"	m	struct:uvc_video_chain	typeref:struct:uvc_video_chain::mutex
+ctrl_out	usbtest.c	/^static int ctrl_out(struct usbtest_dev *dev, unsigned count, unsigned length, unsigned vary, unsigned offset)$/;"	f	file:
+ctrl_out	usbtest.h	/^	unsigned		ctrl_out:1;$/;"	m	struct:usbtest_info
+cur_format	uvcvideo.h	/^	struct uvc_format *cur_format;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_format
+cur_frame	uvcvideo.h	/^	struct uvc_frame *cur_frame;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_frame
+data_type	uvcvideo.h	/^	__u32 data_type;$/;"	m	struct:uvc_control_mapping
+debugfs_dir	uvcvideo.h	/^	struct dentry *debugfs_dir;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::dentry
+decode	uvcvideo.h	/^	void (*decode) (struct uvc_urb *uvc_urb, struct uvc_buffer *buf);$/;"	m	struct:uvc_streaming
+decodes	uvcvideo.h	/^	struct uvc_decode_op decodes[UVC_MAX_PACKETS];$/;"	m	struct:uvc_urb	typeref:struct:uvc_urb::uvc_decode_op
+def_format	uvcvideo.h	/^	struct uvc_format *def_format;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_format
+dev	usbtest.h	/^	struct usbtest_dev	*dev;$/;"	m	struct:ctrl_ctx	typeref:struct:ctrl_ctx::usbtest_dev
+dev	usbtest.h	/^	struct usbtest_dev	*dev;$/;"	m	struct:transfer_context	typeref:struct:transfer_context::usbtest_dev
+dev	uvcvideo.h	/^	struct uvc_device *dev;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_device
+dev	uvcvideo.h	/^	struct uvc_device *dev;$/;"	m	struct:uvc_video_chain	typeref:struct:uvc_video_chain::uvc_device
+dev_sof	uvcvideo.h	/^			u16 dev_sof;$/;"	m	struct:uvc_streaming::uvc_clock::uvc_clock_sample
+dev_stc	uvcvideo.h	/^			u32 dev_stc;$/;"	m	struct:uvc_streaming::uvc_clock::uvc_clock_sample
+dirty	uvcvideo.h	/^	__u8 dirty:1,$/;"	m	struct:uvc_control
+done	usbtest.h	/^	struct completion	done;$/;"	m	struct:transfer_context	typeref:struct:transfer_context::completion
+driver	uvcvideo.h	/^	struct usb_driver driver;$/;"	m	struct:uvc_driver	typeref:struct:uvc_driver::usb_driver
+dst	uvcvideo.h	/^	void *dst;$/;"	m	struct:uvc_decode_op
+duration_sec	testApp.h	/^	int32_t		duration_sec;$/;"	m	struct:usbtest_param_32
+duration_sec	testApp.h	/^	int64_t		duration_sec;$/;"	m	struct:usbtest_param_64
+duration_sec	usbtest.h	/^	__s32		duration_sec;$/;"	m	struct:usbtest_param_32
+duration_sec	usbtest.h	/^	__s64		duration_sec;$/;"	m	struct:usbtest_param_64
+duration_usec	testApp.h	/^	int32_t		duration_usec;$/;"	m	struct:usbtest_param_32
+duration_usec	testApp.h	/^	int64_t		duration_usec;$/;"	m	struct:usbtest_param_64
+duration_usec	usbtest.h	/^	__s32		duration_usec;$/;"	m	struct:usbtest_param_32
+duration_usec	usbtest.h	/^	__s64		duration_usec;$/;"	m	struct:usbtest_param_64
+dwDefaultFrameInterval	uvcvideo.h	/^	__u32 dwDefaultFrameInterval;$/;"	m	struct:uvc_frame
+dwFrameInterval	uvcvideo.h	/^	__u32 *dwFrameInterval;$/;"	m	struct:uvc_frame
+dwMaxBitRate	uvcvideo.h	/^	__u32 dwMaxBitRate;$/;"	m	struct:uvc_frame
+dwMaxVideoFrameBufferSize	uvcvideo.h	/^	__u32 dwMaxVideoFrameBufferSize;$/;"	m	struct:uvc_frame
+dwMinBitRate	uvcvideo.h	/^	__u32 dwMinBitRate;$/;"	m	struct:uvc_frame
+entities	uvcvideo.h	/^	struct list_head entities;		\/* All entities *\/$/;"	m	struct:uvc_video_chain	typeref:struct:uvc_video_chain::list_head
+entities	uvcvideo.h	/^	struct list_head entities;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::list_head
+entity	uvcvideo.h	/^	__u8 entity[16];$/;"	m	struct:uvc_control_info
+entity	uvcvideo.h	/^	__u8 entity[16];$/;"	m	struct:uvc_control_mapping
+entity	uvcvideo.h	/^	struct uvc_entity *entity;$/;"	m	struct:uvc_control	typeref:struct:uvc_control::uvc_entity
+ep_in	usbtest.h	/^	u8			ep_in;		\/* bulk\/intr source *\/$/;"	m	struct:usbtest_info
+ep_out	usbtest.h	/^	u8			ep_out;		\/* bulk\/intr sink *\/$/;"	m	struct:usbtest_info
+error	uvcvideo.h	/^	unsigned int error;$/;"	m	struct:uvc_buffer
+errors	usbtest.h	/^	unsigned long		errors;$/;"	m	struct:transfer_context
+ev_subs	uvcvideo.h	/^	struct list_head ev_subs;$/;"	m	struct:uvc_control_mapping	typeref:struct:uvc_control_mapping::list_head
+expected	usbtest.h	/^	int			expected;$/;"	m	struct:subcase
+extension	uvcvideo.h	/^		} extension;$/;"	m	union:uvc_entity::__anon1	typeref:struct:uvc_entity::__anon1::__anon7
+ez1_info	usbtest.c	/^static struct usbtest_info ez1_info = {$/;"	v	typeref:struct:usbtest_info	file:
+ez2_info	usbtest.c	/^static struct usbtest_info ez2_info = {$/;"	v	typeref:struct:usbtest_info	file:
+fcc	uvcvideo.h	/^	__u32 fcc;$/;"	m	struct:uvc_format
+fcc	uvcvideo.h	/^	__u32 fcc;$/;"	m	struct:uvc_format_desc
+first_data	uvcvideo.h	/^	unsigned int first_data;	\/* Index of the first non-empty packet *\/$/;"	m	struct:uvc_stats_frame
+flags	uvcvideo.h	/^	__u32 flags;$/;"	m	struct:uvc_control_info
+flags	uvcvideo.h	/^	__u32 flags;$/;"	m	struct:uvc_format
+flags	uvcvideo.h	/^	unsigned int flags;$/;"	m	struct:uvc_entity
+flags	uvcvideo.h	/^	unsigned int flags;$/;"	m	struct:uvc_video_queue
+force_interrupt	usbtest.c	/^static unsigned force_interrupt;$/;"	v	file:
+format	uvcvideo.h	/^	struct uvc_format *format;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_format
+frame	uvcvideo.h	/^		struct uvc_stats_frame frame;$/;"	m	struct:uvc_streaming::__anon9	typeref:struct:uvc_streaming::__anon9::uvc_stats_frame
+frame	uvcvideo.h	/^	struct uvc_frame *frame;$/;"	m	struct:uvc_format	typeref:struct:uvc_format::uvc_frame
+free_sglist	usbtest.c	/^static void free_sglist(struct scatterlist *sg, int nents)$/;"	f	file:
+frozen	uvcvideo.h	/^	unsigned int frozen : 1;$/;"	m	struct:uvc_streaming
+fw_info	usbtest.c	/^static struct usbtest_info fw_info = {$/;"	v	typeref:struct:usbtest_info	file:
+generic_info	usbtest.c	/^static struct usbtest_info generic_info = {$/;"	v	typeref:struct:usbtest_info	file:
+get	uvcvideo.h	/^	__s32 (*get) (struct uvc_control_mapping *mapping, __u8 query,$/;"	m	struct:uvc_control_mapping
+get_altsetting	usbtest.c	/^static int get_altsetting(struct usbtest_dev *dev)$/;"	f	file:
+get_endpoints	usbtest.c	/^static int get_endpoints(struct usbtest_dev *dev, struct usb_interface *intf)$/;"	f	file:
+get_maxpacket	usbtest.c	/^static unsigned get_maxpacket(struct usb_device *udev, int pipe)$/;"	f	file:
+guid	uvcvideo.h	/^	__u8 guid[16];$/;"	m	struct:uvc_format_desc
+guidExtensionCode	uvcvideo.h	/^			__u8  guidExtensionCode[16];$/;"	m	struct:uvc_entity::__anon1::__anon7
+gz_info	usbtest.c	/^static struct usbtest_info gz_info = {$/;"	v	typeref:struct:usbtest_info	file:
+halt_simple	usbtest.c	/^static int halt_simple(struct usbtest_dev *dev)$/;"	f	file:
+has_early_pts	uvcvideo.h	/^	bool has_early_pts;		\/* Whether a PTS is present before the first non-empty packet *\/$/;"	m	struct:uvc_stats_frame
+has_initial_pts	uvcvideo.h	/^	bool has_initial_pts;		\/* Whether the first non-empty packet has a PTS *\/$/;"	m	struct:uvc_stats_frame
+head	uvcvideo.h	/^		unsigned int head;$/;"	m	struct:uvc_streaming::uvc_clock
+header	uvcvideo.h	/^		__u8 header[256];$/;"	m	struct:uvc_streaming::__anon8
+header	uvcvideo.h	/^	struct uvc_streaming_header header;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_streaming_header
+header_size	uvcvideo.h	/^		unsigned int header_size;$/;"	m	struct:uvc_streaming::__anon8
+host_sof	uvcvideo.h	/^			u16 host_sof;$/;"	m	struct:uvc_streaming::uvc_clock::uvc_clock_sample
+host_ts	uvcvideo.h	/^			struct timespec host_ts;$/;"	m	struct:uvc_streaming::uvc_clock::uvc_clock_sample	typeref:struct:uvc_streaming::uvc_clock::uvc_clock_sample::timespec
+ibot2_info	usbtest.c	/^static struct usbtest_info ibot2_info = {$/;"	v	typeref:struct:usbtest_info	file:
+id	uvcvideo.h	/^	__u32 id;$/;"	m	struct:uvc_control_mapping
+id	uvcvideo.h	/^	__u8 id;$/;"	m	struct:uvc_entity
+id_table	usbtest.c	/^static const struct usb_device_id id_table[] = {$/;"	v	typeref:struct:usb_device_id	file:
+in_int_pipe	usbtest.h	/^	int			in_int_pipe;$/;"	m	struct:usbtest_dev
+in_iso_pipe	usbtest.h	/^	int			in_iso_pipe;$/;"	m	struct:usbtest_dev
+in_pipe	usbtest.h	/^	int			in_pipe;$/;"	m	struct:usbtest_dev
+index	uvcvideo.h	/^	__u8 index;	\/* Bit index in bmControls *\/$/;"	m	struct:uvc_control_info
+index	uvcvideo.h	/^	__u8 index;	\/* Used to match the uvc_control entry with a$/;"	m	struct:uvc_control
+index	uvcvideo.h	/^	__u8 index;$/;"	m	struct:uvc_format
+info	usbtest.h	/^	struct usbtest_info	*info;$/;"	m	struct:usbtest_dev	typeref:struct:usbtest_dev::usbtest_info
+info	uvcvideo.h	/^	struct uvc_control_info info;$/;"	m	struct:uvc_control	typeref:struct:uvc_control::uvc_control_info
+initialized	uvcvideo.h	/^	     initialized:1;$/;"	m	struct:uvc_control
+input	uvcvideo.h	/^	struct input_dev *input;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::input_dev
+input_phys	uvcvideo.h	/^	char input_phys[64];$/;"	m	struct:uvc_device
+int_ep	uvcvideo.h	/^	struct usb_host_endpoint *int_ep;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::usb_host_endpoint
+int_in	usbtest.h	/^	struct usb_endpoint_descriptor	*int_in, *int_out;$/;"	m	struct:usbtest_dev	typeref:struct:usbtest_dev::usb_endpoint_descriptor
+int_out	usbtest.h	/^	struct usb_endpoint_descriptor	*int_in, *int_out;$/;"	m	struct:usbtest_dev	typeref:struct:usbtest_dev::
+int_urb	uvcvideo.h	/^	struct urb *int_urb;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::urb
+intf	usbtest.h	/^	struct usb_interface	*intf;$/;"	m	struct:usbtest_dev	typeref:struct:usbtest_dev::usb_interface
+intf	uvcvideo.h	/^	struct usb_interface *intf;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::usb_interface
+intf	uvcvideo.h	/^	struct usb_interface *intf;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::usb_interface
+intfnum	uvcvideo.h	/^	int intfnum;$/;"	m	struct:uvc_device
+intfnum	uvcvideo.h	/^	int intfnum;$/;"	m	struct:uvc_streaming
+intr	usbtest.h	/^	unsigned		intr:1;		\/* try interrupt in\/out *\/$/;"	m	struct:usbtest_info
+irqlock	uvcvideo.h	/^	spinlock_t irqlock;			\/* Protects irqqueue *\/$/;"	m	struct:uvc_video_queue
+irqqueue	uvcvideo.h	/^	struct list_head irqqueue;$/;"	m	struct:uvc_video_queue	typeref:struct:uvc_video_queue::list_head
+is_good_con_id	usbtest.c	/^static int is_good_con_id(struct usbtest_dev *tdev, u8 *buf)$/;"	f	file:
+is_good_config	usbtest.c	/^static int is_good_config(struct usbtest_dev *tdev, int len)$/;"	f	file:
+is_good_ext	usbtest.c	/^static int is_good_ext(struct usbtest_dev *tdev, u8 *buf)$/;"	f	file:
+is_good_ss_cap	usbtest.c	/^static int is_good_ss_cap(struct usbtest_dev *tdev, u8 *buf)$/;"	f	file:
+is_iso	usbtest.h	/^	bool			is_iso;$/;"	m	struct:transfer_context
+iso	usbtest.h	/^	unsigned		iso:1;		\/* try iso in\/out *\/$/;"	m	struct:usbtest_info
+iso_alloc_urb	usbtest.c	/^static struct urb *iso_alloc_urb($/;"	f	file:
+iso_in	usbtest.h	/^	struct usb_endpoint_descriptor	*iso_in, *iso_out;$/;"	m	struct:usbtest_dev	typeref:struct:usbtest_dev::usb_endpoint_descriptor
+iso_out	usbtest.h	/^	struct usb_endpoint_descriptor	*iso_in, *iso_out;$/;"	m	struct:usbtest_dev	typeref:struct:usbtest_dev::
+iterations	testApp.h	/^	uint32_t		iterations;$/;"	m	struct:usbtest_param_32
+iterations	testApp.h	/^	uint32_t		iterations;$/;"	m	struct:usbtest_param_64
+iterations	usbtest.h	/^	__u32		iterations;$/;"	m	struct:usbtest_param_32
+iterations	usbtest.h	/^	__u32		iterations;$/;"	m	struct:usbtest_param_64
+last	usbtest.h	/^	int			last;$/;"	m	struct:ctrl_ctx
+last_fid	uvcvideo.h	/^	__u8 last_fid;$/;"	m	struct:uvc_streaming
+last_pts_diff	uvcvideo.h	/^	unsigned int last_pts_diff;	\/* Index of the last PTS difference *\/$/;"	m	struct:uvc_stats_frame
+last_sof	uvcvideo.h	/^		u16 last_sof;$/;"	m	struct:uvc_streaming::uvc_clock
+len	uvcvideo.h	/^	int len;$/;"	m	struct:uvc_decode_op
+length	testApp.h	/^	uint32_t		length;$/;"	m	struct:usbtest_param_32
+length	testApp.h	/^	uint32_t		length;$/;"	m	struct:usbtest_param_64
+length	usbtest.h	/^	__u32		length;$/;"	m	struct:usbtest_param_32
+length	usbtest.h	/^	__u32		length;$/;"	m	struct:usbtest_param_64
+length	uvcvideo.h	/^	unsigned int length;$/;"	m	struct:uvc_buffer
+list	uvcvideo.h	/^	struct list_head list;		\/* Entity as part of a UVC device. *\/$/;"	m	struct:uvc_entity	typeref:struct:uvc_entity::list_head
+list	uvcvideo.h	/^	struct list_head list;$/;"	m	struct:uvc_control_mapping	typeref:struct:uvc_control_mapping::list_head
+list	uvcvideo.h	/^	struct list_head list;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::list_head
+list	uvcvideo.h	/^	struct list_head list;$/;"	m	struct:uvc_video_chain	typeref:struct:uvc_video_chain::list_head
+loaded	uvcvideo.h	/^	     loaded:1,$/;"	m	struct:uvc_control
+lock	usbtest.h	/^	spinlock_t		lock;$/;"	m	struct:ctrl_ctx
+lock	usbtest.h	/^	spinlock_t		lock;$/;"	m	struct:transfer_context
+lock	usbtest.h	/^	struct mutex		lock;$/;"	m	struct:usbtest_dev	typeref:struct:usbtest_dev::mutex
+lock	uvcvideo.h	/^		spinlock_t lock;$/;"	m	struct:uvc_streaming::uvc_clock
+lock	uvcvideo.h	/^	struct mutex lock;		\/* Protects users *\/$/;"	m	struct:uvc_device	typeref:struct:uvc_device::mutex
+main	testApp.c	/^int main(int argc, char* argv[])$/;"	f
+mappings	uvcvideo.h	/^	struct list_head mappings;$/;"	m	struct:uvc_control_info	typeref:struct:uvc_control_info::list_head
+master_id	uvcvideo.h	/^	__u32 master_id;$/;"	m	struct:uvc_control_mapping
+master_manual	uvcvideo.h	/^	__s32 master_manual;$/;"	m	struct:uvc_control_mapping
+max_payload_size	uvcvideo.h	/^		__u32 max_payload_size;$/;"	m	struct:uvc_streaming::__anon8
+max_sof	uvcvideo.h	/^	unsigned int max_sof;		\/* Maximum STC.SOF value *\/$/;"	m	struct:uvc_stats_stream
+maxpsize	uvcvideo.h	/^	__u16 maxpsize;$/;"	m	struct:uvc_streaming
+mdev	uvcvideo.h	/^	struct media_device mdev;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::media_device
+media	uvcvideo.h	/^		} media;$/;"	m	union:uvc_entity::__anon1	typeref:struct:uvc_entity::__anon1::__anon3
+mem	uvcvideo.h	/^	void *mem;$/;"	m	struct:uvc_buffer
+memdump	testApp.c	/^static void memdump(char *buf, int size)$/;"	f	file:
+menu_count	uvcvideo.h	/^	__u32 menu_count;$/;"	m	struct:uvc_control_mapping
+menu_info	uvcvideo.h	/^	struct uvc_menu_info *menu_info;$/;"	m	struct:uvc_control_mapping	typeref:struct:uvc_control_mapping::uvc_menu_info
+min_sof	uvcvideo.h	/^	unsigned int min_sof;		\/* Minimum STC.SOF value *\/$/;"	m	struct:uvc_stats_stream
+mod_pattern	usbtest.c	/^static unsigned mod_pattern;$/;"	v	file:
+modified	uvcvideo.h	/^	     modified:1,$/;"	m	struct:uvc_control
+mutex	uvcvideo.h	/^	struct mutex mutex;			\/* Protects queue *\/$/;"	m	struct:uvc_video_queue	typeref:struct:uvc_video_queue::mutex
+mutex	uvcvideo.h	/^	struct mutex mutex;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::mutex
+name	usbtest.h	/^	const char		*name;$/;"	m	struct:usbtest_info
+name	uvcvideo.h	/^	__u8 name[32];$/;"	m	struct:uvc_control_mapping
+name	uvcvideo.h	/^	char *name;$/;"	m	struct:uvc_format_desc
+name	uvcvideo.h	/^	char name[32];$/;"	m	struct:uvc_device
+name	uvcvideo.h	/^	char name[32];$/;"	m	struct:uvc_format
+name	uvcvideo.h	/^	char name[64];$/;"	m	struct:uvc_entity
+nb_empty	uvcvideo.h	/^	unsigned int nb_empty;		\/* Number of empty packets *\/$/;"	m	struct:uvc_stats_frame
+nb_empty	uvcvideo.h	/^	unsigned int nb_empty;		\/* Number of empty packets *\/$/;"	m	struct:uvc_stats_stream
+nb_errors	uvcvideo.h	/^	unsigned int nb_errors;		\/* Number of packets with the error bit set *\/$/;"	m	struct:uvc_stats_frame
+nb_errors	uvcvideo.h	/^	unsigned int nb_errors;		\/* Number of packets with the error bit set *\/$/;"	m	struct:uvc_stats_stream
+nb_frames	uvcvideo.h	/^	unsigned int nb_frames;		\/* Number of frames *\/$/;"	m	struct:uvc_stats_stream
+nb_invalid	uvcvideo.h	/^	unsigned int nb_invalid;	\/* Number of packets with an invalid header *\/$/;"	m	struct:uvc_stats_frame
+nb_invalid	uvcvideo.h	/^	unsigned int nb_invalid;	\/* Number of packets with an invalid header *\/$/;"	m	struct:uvc_stats_stream
+nb_packets	uvcvideo.h	/^	unsigned int nb_packets;	\/* Number of packets *\/$/;"	m	struct:uvc_stats_frame
+nb_packets	uvcvideo.h	/^	unsigned int nb_packets;	\/* Number of packets *\/$/;"	m	struct:uvc_stats_stream
+nb_pts	uvcvideo.h	/^	unsigned int nb_pts;		\/* Number of packets with a PTS timestamp *\/$/;"	m	struct:uvc_stats_frame
+nb_pts_constant	uvcvideo.h	/^	unsigned int nb_pts_constant;	\/* Number of frames with constant PTS *\/$/;"	m	struct:uvc_stats_stream
+nb_pts_diffs	uvcvideo.h	/^	unsigned int nb_pts_diffs;	\/* Number of PTS differences inside a frame *\/$/;"	m	struct:uvc_stats_frame
+nb_pts_early	uvcvideo.h	/^	unsigned int nb_pts_early;	\/* Number of frames with early PTS *\/$/;"	m	struct:uvc_stats_stream
+nb_pts_initial	uvcvideo.h	/^	unsigned int nb_pts_initial;	\/* Number of frames with initial PTS *\/$/;"	m	struct:uvc_stats_stream
+nb_scr	uvcvideo.h	/^	unsigned int nb_scr;		\/* Number of packets with a SCR timestamp *\/$/;"	m	struct:uvc_stats_frame
+nb_scr_count_ok	uvcvideo.h	/^	unsigned int nb_scr_count_ok;	\/* Number of frames with at least one SCR per non empty packet *\/$/;"	m	struct:uvc_stats_stream
+nb_scr_diffs	uvcvideo.h	/^	unsigned int nb_scr_diffs;	\/* Number of SCR.STC differences inside a frame *\/$/;"	m	struct:uvc_stats_frame
+nb_scr_diffs_ok	uvcvideo.h	/^	unsigned int nb_scr_diffs_ok;	\/* Number of frames with varying SCR.STC *\/$/;"	m	struct:uvc_stats_stream
+ncontrols	uvcvideo.h	/^	unsigned int ncontrols;$/;"	m	struct:uvc_entity
+nformats	uvcvideo.h	/^	unsigned int nformats;$/;"	m	struct:uvc_streaming
+nframes	uvcvideo.h	/^	unsigned int nframes;$/;"	m	struct:uvc_format
+nmappings	uvcvideo.h	/^	atomic_t nmappings;$/;"	m	struct:uvc_device
+nstreams	uvcvideo.h	/^	atomic_t nstreams;$/;"	m	struct:uvc_device
+num	usbtest.h	/^	unsigned		num;$/;"	m	struct:queued_ctx
+num_links	uvcvideo.h	/^	unsigned int num_links;$/;"	m	struct:uvc_entity
+num_pads	uvcvideo.h	/^	unsigned int num_pads;$/;"	m	struct:uvc_entity
+number	usbtest.h	/^	int			number;$/;"	m	struct:subcase
+obj-m	Makefile	/^obj-m := usbtest.o $/;"	m
+offset	uvcvideo.h	/^	__u8 offset;$/;"	m	struct:uvc_control_mapping
+out_int_pipe	usbtest.h	/^	int			out_int_pipe;$/;"	m	struct:usbtest_dev
+out_iso_pipe	usbtest.h	/^	int			out_iso_pipe;$/;"	m	struct:usbtest_dev
+out_pipe	usbtest.h	/^	int			out_pipe;$/;"	m	struct:usbtest_dev
+output	uvcvideo.h	/^		} output;$/;"	m	union:uvc_entity::__anon1	typeref:struct:uvc_entity::__anon1::__anon4
+override_alt	usbtest.c	/^static int override_alt = -1;$/;"	v	file:
+packet_count	usbtest.h	/^	unsigned long		packet_count;$/;"	m	struct:transfer_context
+packets	uvcvideo.h	/^	unsigned int packets;$/;"	m	struct:uvc_urb
+pads	uvcvideo.h	/^	struct media_pad *pads;$/;"	m	struct:uvc_entity	typeref:struct:uvc_entity::media_pad
+param	usbtest.h	/^	struct usbtest_param_32	*param;$/;"	m	struct:ctrl_ctx	typeref:struct:ctrl_ctx::usbtest_param_32
+pattern	usbtest.c	/^static unsigned pattern;$/;"	v	file:
+payload_size	uvcvideo.h	/^		__u32 payload_size;$/;"	m	struct:uvc_streaming::__anon8
+pending	usbtest.h	/^	atomic_t		pending;$/;"	m	struct:queued_ctx
+pending	usbtest.h	/^	unsigned		pending;$/;"	m	struct:ctrl_ctx
+pending	usbtest.h	/^	unsigned		pending;$/;"	m	struct:transfer_context
+perform_sglist	usbtest.c	/^static int perform_sglist($/;"	f	file:
+prio	uvcvideo.h	/^	struct v4l2_prio_state prio;		\/* V4L2 priority state *\/$/;"	m	struct:uvc_video_chain	typeref:struct:uvc_video_chain::v4l2_prio_state
+processing	uvcvideo.h	/^		} processing;$/;"	m	union:uvc_entity::__anon1	typeref:struct:uvc_entity::__anon1::__anon5
+processing	uvcvideo.h	/^	struct uvc_entity *processing;		\/* Processing unit *\/$/;"	m	struct:uvc_video_chain	typeref:struct:uvc_video_chain::uvc_entity
+product	usbtest.c	/^static unsigned short product=0x0505;$/;"	v	file:
+pts	uvcvideo.h	/^	u32 pts;			\/* PTS of the last packet *\/$/;"	m	struct:uvc_stats_frame
+pts	uvcvideo.h	/^	u32 pts;$/;"	m	struct:uvc_buffer
+queue	uvcvideo.h	/^	struct list_head queue;$/;"	m	struct:uvc_buffer	typeref:struct:uvc_buffer::list_head
+queue	uvcvideo.h	/^	struct uvc_video_queue queue;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_video_queue
+queue	uvcvideo.h	/^	struct vb2_queue queue;$/;"	m	struct:uvc_video_queue	typeref:struct:uvc_video_queue::vb2_queue
+queued_ctx	usbtest.h	/^struct queued_ctx {$/;"	s
+quirks	uvcvideo.h	/^	__u32 quirks;$/;"	m	struct:uvc_device
+realworld	usbtest.c	/^static unsigned realworld = 1;$/;"	v	file:
+ref	uvcvideo.h	/^	struct kref ref;$/;"	m	struct:uvc_buffer	typeref:struct:uvc_buffer::kref
+samples	uvcvideo.h	/^		} *samples;$/;"	m	struct:uvc_streaming::uvc_clock	typeref:struct:uvc_streaming::uvc_clock::uvc_clock_sample
+scr_sof	uvcvideo.h	/^	u16 scr_sof;			\/* SCR.SOF of the last packet *\/$/;"	m	struct:uvc_stats_frame
+scr_sof	uvcvideo.h	/^	unsigned int scr_sof;		\/* STC.SOF of the last packet *\/$/;"	m	struct:uvc_stats_stream
+scr_sof_count	uvcvideo.h	/^	unsigned int scr_sof_count;	\/* STC.SOF counter accumulated since stream start *\/$/;"	m	struct:uvc_stats_stream
+scr_stc	uvcvideo.h	/^	u32 scr_stc;			\/* SCR.STC of the last packet *\/$/;"	m	struct:uvc_stats_frame
+selector	uvcvideo.h	/^		} selector;$/;"	m	union:uvc_entity::__anon1	typeref:struct:uvc_entity::__anon1::__anon6
+selector	uvcvideo.h	/^	__u8 selector;$/;"	m	struct:uvc_control_info
+selector	uvcvideo.h	/^	__u8 selector;$/;"	m	struct:uvc_control_mapping
+selector	uvcvideo.h	/^	struct uvc_entity *selector;		\/* Selector unit *\/$/;"	m	struct:uvc_video_chain	typeref:struct:uvc_video_chain::uvc_entity
+sequence	uvcvideo.h	/^	__u32 sequence;$/;"	m	struct:uvc_streaming
+set	uvcvideo.h	/^	void (*set) (struct uvc_control_mapping *mapping, __s32 value,$/;"	m	struct:uvc_control_mapping
+set_altsetting	usbtest.c	/^static int set_altsetting(struct usbtest_dev *dev, int alternate)$/;"	f	file:
+setup	usbtest.h	/^	struct usb_ctrlrequest	setup;$/;"	m	struct:subcase	typeref:struct:subcase::usb_ctrlrequest
+sg_timeout	usbtest.c	/^static void sg_timeout(unsigned long _req)$/;"	f	file:
+sglen	testApp.h	/^	uint32_t		sglen;$/;"	m	struct:usbtest_param_32
+sglen	testApp.h	/^	uint32_t		sglen;$/;"	m	struct:usbtest_param_64
+sglen	usbtest.h	/^	__u32		sglen;$/;"	m	struct:usbtest_param_32
+sglen	usbtest.h	/^	__u32		sglen;$/;"	m	struct:usbtest_param_64
+simple_alloc_urb	usbtest.c	/^static struct urb *simple_alloc_urb($/;"	f	file:
+simple_callback	usbtest.c	/^static void simple_callback(struct urb *urb)$/;"	f	file:
+simple_check_buf	usbtest.c	/^static int simple_check_buf(struct usbtest_dev *tdev, struct urb *urb)$/;"	f	file:
+simple_fill_buf	usbtest.c	/^static void simple_fill_buf(struct urb *urb)$/;"	f	file:
+simple_free_urb	usbtest.c	/^static void simple_free_urb(struct urb *urb)$/;"	f	file:
+simple_io	usbtest.c	/^static int simple_io($/;"	f	file:
+size	uvcvideo.h	/^		unsigned int size;$/;"	m	struct:uvc_streaming::uvc_clock
+size	uvcvideo.h	/^	__u16 size;$/;"	m	struct:uvc_control_info
+size	uvcvideo.h	/^	__u8 size;$/;"	m	struct:uvc_control_mapping
+size	uvcvideo.h	/^	unsigned int size;		\/* Number of bytes captured *\/$/;"	m	struct:uvc_stats_frame
+skip_payload	uvcvideo.h	/^		int skip_payload;$/;"	m	struct:uvc_streaming::__anon8
+slave_ids	uvcvideo.h	/^	__u32 slave_ids[2];$/;"	m	struct:uvc_control_mapping
+sof_offset	uvcvideo.h	/^		u16 sof_offset;$/;"	m	struct:uvc_streaming::uvc_clock
+src	uvcvideo.h	/^	const __u8 *src;$/;"	m	struct:uvc_decode_op
+start_ts	uvcvideo.h	/^	struct timespec start_ts;	\/* Stream start timestamp *\/$/;"	m	struct:uvc_stats_stream	typeref:struct:uvc_stats_stream::timespec
+state	uvcvideo.h	/^	enum uvc_buffer_state state;$/;"	m	struct:uvc_buffer	typeref:enum:uvc_buffer::uvc_buffer_state
+state	uvcvideo.h	/^	enum uvc_handle_state state;$/;"	m	struct:uvc_fh	typeref:enum:uvc_fh::uvc_handle_state
+stats	uvcvideo.h	/^	} stats;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::__anon9
+status	usbtest.h	/^	int			status;$/;"	m	struct:ctrl_ctx
+status	usbtest.h	/^	int			status;$/;"	m	struct:queued_ctx
+status	uvcvideo.h	/^	__u8 *status;$/;"	m	struct:uvc_device
+stop_ts	uvcvideo.h	/^	struct timespec stop_ts;	\/* Stream stop timestamp *\/$/;"	m	struct:uvc_stats_stream	typeref:struct:uvc_stats_stream::timespec
+stream	uvcvideo.h	/^		struct uvc_stats_stream stream;$/;"	m	struct:uvc_streaming::__anon9	typeref:struct:uvc_streaming::__anon9::uvc_stats_stream
+stream	uvcvideo.h	/^	struct uvc_streaming *stream;$/;"	m	struct:uvc_fh	typeref:struct:uvc_fh::uvc_streaming
+stream	uvcvideo.h	/^	struct uvc_streaming *stream;$/;"	m	struct:uvc_urb	typeref:struct:uvc_urb::uvc_streaming
+streams	uvcvideo.h	/^	struct list_head streams;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::list_head
+subcase	usbtest.h	/^struct subcase {$/;"	s
+subdev	uvcvideo.h	/^	struct v4l2_subdev subdev;$/;"	m	struct:uvc_entity	typeref:struct:uvc_entity::v4l2_subdev
+submit_error	usbtest.h	/^	int			submit_error;$/;"	m	struct:transfer_context
+test_ctrl_queue	usbtest.c	/^static int test_ctrl_queue(struct usbtest_dev *dev, struct usbtest_param_32 *param)$/;"	f	file:
+test_halt	usbtest.c	/^static int test_halt(struct usbtest_dev *tdev, int ep, struct urb *urb)$/;"	f	file:
+test_num	testApp.h	/^	uint32_t		test_num;	\/* 0..(TEST_CASES-1) *\/$/;"	m	struct:usbtest_param_32
+test_num	testApp.h	/^	uint32_t		test_num;	\/* 0..(TEST_CASES-1) *\/$/;"	m	struct:usbtest_param_64
+test_num	usbtest.h	/^	__u32		test_num;	\/* 0..(TEST_CASES-1) *\/$/;"	m	struct:usbtest_param_32
+test_num	usbtest.h	/^	__u32		test_num;	\/* 0..(TEST_CASES-1) *\/$/;"	m	struct:usbtest_param_64
+test_queue	usbtest.c	/^static int test_queue(struct usbtest_dev *dev, struct usbtest_param_32 *param, int pipe, struct usb_endpoint_descriptor *desc, unsigned offset)$/;"	f	file:
+test_unaligned_bulk	usbtest.c	/^static int test_unaligned_bulk($/;"	f	file:
+testdev_to_usbdev	usbtest.c	/^static struct usb_device *testdev_to_usbdev(struct usbtest_dev *test)$/;"	f	file:
+transfer_context	usbtest.h	/^struct transfer_context {$/;"	s
+type	uvcvideo.h	/^	__u16 type;$/;"	m	struct:uvc_entity
+type	uvcvideo.h	/^	__u8 type;$/;"	m	struct:uvc_format
+type	uvcvideo.h	/^	enum v4l2_buf_type type;$/;"	m	struct:uvc_streaming	typeref:enum:uvc_streaming::v4l2_buf_type
+udev	usbtest.h	/^	struct usbtest_dev	*udev;$/;"	m	struct:usbtest_dev	typeref:struct:usbtest_dev::usbtest_dev
+udev	uvcvideo.h	/^	struct usb_device *udev;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::usb_device
+um2_info	usbtest.c	/^static struct usbtest_info um2_info = {$/;"	v	typeref:struct:usbtest_info	file:
+um_info	usbtest.c	/^static struct usbtest_info um_info = {$/;"	v	typeref:struct:usbtest_info	file:
+unlink1	usbtest.c	/^static int unlink1(struct usbtest_dev *dev, int pipe, int size, int async)$/;"	f	file:
+unlink1_callback	usbtest.c	/^static void unlink1_callback(struct urb *urb)$/;"	f	file:
+unlink_queued	usbtest.c	/^static int unlink_queued(struct usbtest_dev *dev, int pipe, unsigned num, unsigned size)$/;"	f	file:
+unlink_queued_callback	usbtest.c	/^static void unlink_queued_callback(struct urb *urb)$/;"	f	file:
+unlink_simple	usbtest.c	/^static int unlink_simple(struct usbtest_dev *dev, int pipe, int len)$/;"	f	file:
+urb	usbtest.h	/^	struct urb		**urb;$/;"	m	struct:ctrl_ctx	typeref:struct:ctrl_ctx::urb
+urb	uvcvideo.h	/^	struct urb *urb;$/;"	m	struct:uvc_urb	typeref:struct:uvc_urb::urb
+urb_buffer	uvcvideo.h	/^	char *urb_buffer;$/;"	m	struct:uvc_urb
+urb_dma	uvcvideo.h	/^	dma_addr_t urb_dma;$/;"	m	struct:uvc_urb
+urb_size	uvcvideo.h	/^	unsigned int urb_size;$/;"	m	struct:uvc_streaming
+urbs	usbtest.h	/^	struct urb		**urbs;$/;"	m	struct:queued_ctx	typeref:struct:queued_ctx::urb
+usbtest_alloc_urb	usbtest.c	/^static struct urb *usbtest_alloc_urb($/;"	f	file:
+usbtest_class	usbtest.c	/^static struct usb_class_driver usbtest_class = {$/;"	v	typeref:struct:usb_class_driver	file:
+usbtest_dev	usbtest.h	/^struct usbtest_dev {$/;"	s
+usbtest_disconnect	usbtest.c	/^static void usbtest_disconnect(struct usb_interface *intf)$/;"	f	file:
+usbtest_do_ioctl	usbtest.c	/^static int usbtest_do_ioctl(struct usbtest_dev* dev, struct usb_interface *intf, struct usbtest_param_32 *param)$/;"	f	file:
+usbtest_driver	usbtest.c	/^struct usb_driver usbtest_driver = {$/;"	v	typeref:struct:usb_driver
+usbtest_driver	usbtest.c	/^struct usb_driver usbtest_driver;$/;"	v	typeref:struct:usb_driver
+usbtest_exit	usbtest.c	/^module_exit(usbtest_exit);$/;"	v
+usbtest_exit	usbtest.c	/^static void __exit usbtest_exit(void)$/;"	f	file:
+usbtest_flush	usbtest.c	/^static ssize_t usbtest_flush(struct file *file, fl_owner_t id)$/;"	f	file:
+usbtest_fops	usbtest.c	/^static const struct file_operations usbtest_fops = {$/;"	v	typeref:struct:file_operations	file:
+usbtest_info	usbtest.h	/^struct usbtest_info {$/;"	s
+usbtest_init	usbtest.c	/^module_init(usbtest_init);$/;"	v
+usbtest_init	usbtest.c	/^static int __init usbtest_init(void)$/;"	f	file:
+usbtest_ioctl	usbtest.c	/^static int usbtest_ioctl(struct file* filep, unsigned int code, void* buf)$/;"	f	file:
+usbtest_open	usbtest.c	/^static ssize_t usbtest_open(struct inode* inode, struct file *file)$/;"	f	file:
+usbtest_param_32	testApp.h	/^struct usbtest_param_32 {$/;"	s
+usbtest_param_32	usbtest.h	/^struct usbtest_param_32 {$/;"	s
+usbtest_param_64	testApp.h	/^struct usbtest_param_64 {$/;"	s
+usbtest_param_64	usbtest.h	/^struct usbtest_param_64 {$/;"	s
+usbtest_probe	usbtest.c	/^static int usbtest_probe(struct usb_interface *intf, const struct usb_device_id *id)$/;"	f	file:
+usbtest_read	usbtest.c	/^static ssize_t usbtest_read(struct file *file, char *buffer, size_t count, loff_t *ppos)$/;"	f	file:
+usbtest_release	usbtest.c	/^static ssize_t usbtest_release(struct inode* inode, struct file *file)$/;"	f	file:
+usbtest_resume	usbtest.c	/^static int usbtest_resume(struct usb_interface *intf)$/;"	f	file:
+usbtest_suspend	usbtest.c	/^static int usbtest_suspend(struct usb_interface *intf, pm_message_t message)$/;"	f	file:
+usbtest_write	usbtest.c	/^static ssize_t usbtest_write(struct file *file, const char *user_buffer, size_t count, loff_t *ppos)$/;"	f	file:
+users	uvcvideo.h	/^	unsigned int users;$/;"	m	struct:uvc_device
+uvc_alloc_urb_buffers	uvc_video.c	/^static int uvc_alloc_urb_buffers(struct uvc_streaming *stream,$/;"	f	file:
+uvc_buffer	uvcvideo.h	/^struct uvc_buffer {$/;"	s
+uvc_buffer_state	uvcvideo.h	/^enum uvc_buffer_state {$/;"	g
+uvc_clock	uvcvideo.h	/^	struct uvc_clock {$/;"	s	struct:uvc_streaming
+uvc_clock_sample	uvcvideo.h	/^		struct uvc_clock_sample {$/;"	s	struct:uvc_streaming::uvc_clock
+uvc_commit_video	uvc_video.c	/^static int uvc_commit_video(struct uvc_streaming *stream,$/;"	f	file:
+uvc_control	uvcvideo.h	/^struct uvc_control {$/;"	s
+uvc_control_info	uvcvideo.h	/^struct uvc_control_info {$/;"	s
+uvc_control_mapping	uvcvideo.h	/^struct uvc_control_mapping {$/;"	s
+uvc_ctrl_commit	uvcvideo.h	/^static inline int uvc_ctrl_commit(struct uvc_fh *handle,$/;"	f
+uvc_ctrl_rollback	uvcvideo.h	/^static inline int uvc_ctrl_rollback(struct uvc_fh *handle)$/;"	f
+uvc_data	uvcvideo.h	/^	__u8 *uvc_data;$/;"	m	struct:uvc_control
+uvc_decode_op	uvcvideo.h	/^struct uvc_decode_op {$/;"	s
+uvc_device	uvcvideo.h	/^struct uvc_device {$/;"	s
+uvc_driver	uvcvideo.h	/^struct uvc_driver {$/;"	s
+uvc_endpoint_max_bpi	uvc_video.c	/^static unsigned int uvc_endpoint_max_bpi(struct usb_device *dev,$/;"	f	file:
+uvc_entity	uvcvideo.h	/^struct uvc_entity {$/;"	s
+uvc_fh	uvcvideo.h	/^struct uvc_fh {$/;"	s
+uvc_fixup_video_ctrl	uvc_video.c	/^static void uvc_fixup_video_ctrl(struct uvc_streaming *stream,$/;"	f	file:
+uvc_format	uvcvideo.h	/^struct uvc_format {$/;"	s
+uvc_format_desc	uvcvideo.h	/^struct uvc_format_desc {$/;"	s
+uvc_frame	uvcvideo.h	/^struct uvc_frame {$/;"	s
+uvc_free_urb_buffers	uvc_video.c	/^static void uvc_free_urb_buffers(struct uvc_streaming *stream)$/;"	f	file:
+uvc_get_video_ctrl	uvc_video.c	/^static int uvc_get_video_ctrl(struct uvc_streaming *stream,$/;"	f	file:
+uvc_handle_state	uvcvideo.h	/^enum uvc_handle_state {$/;"	g
+uvc_init_video	uvc_video.c	/^static int uvc_init_video(struct uvc_streaming *stream, gfp_t gfp_flags)$/;"	f	file:
+uvc_init_video_bulk	uvc_video.c	/^static int uvc_init_video_bulk(struct uvc_streaming *stream,$/;"	f	file:
+uvc_init_video_isoc	uvc_video.c	/^static int uvc_init_video_isoc(struct uvc_streaming *stream,$/;"	f	file:
+uvc_printk	uvcvideo.h	661;"	d
+uvc_probe_video	uvc_video.c	/^int uvc_probe_video(struct uvc_streaming *stream,$/;"	f
+uvc_query_ctrl	uvc_video.c	/^int uvc_query_ctrl(struct uvc_device *dev, __u8 query, __u8 unit,$/;"	f
+uvc_query_name	uvc_video.c	/^static const char *uvc_query_name(__u8 query)$/;"	f	file:
+uvc_queue_streaming	uvcvideo.h	/^static inline int uvc_queue_streaming(struct uvc_video_queue *queue)$/;"	f
+uvc_set_video_ctrl	uvc_video.c	/^static int uvc_set_video_ctrl(struct uvc_streaming *stream,$/;"	f	file:
+uvc_stats_frame	uvcvideo.h	/^struct uvc_stats_frame {$/;"	s
+uvc_stats_stream	uvcvideo.h	/^struct uvc_stats_stream {$/;"	s
+uvc_streaming	uvcvideo.h	/^struct uvc_streaming {$/;"	s
+uvc_streaming_header	uvcvideo.h	/^struct uvc_streaming_header {$/;"	s
+uvc_trace	uvcvideo.h	649;"	d
+uvc_uninit_video	uvc_video.c	/^static void uvc_uninit_video(struct uvc_streaming *stream, int free_buffers)$/;"	f	file:
+uvc_urb	uvcvideo.h	/^	struct uvc_urb uvc_urb[UVC_URBS];$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::uvc_urb
+uvc_urb	uvcvideo.h	/^struct uvc_urb {$/;"	s
+uvc_version	uvcvideo.h	/^	__u16 uvc_version;$/;"	m	struct:uvc_device
+uvc_video_chain	uvcvideo.h	/^struct uvc_video_chain {$/;"	s
+uvc_video_clock_cleanup	uvc_video.c	/^static void uvc_video_clock_cleanup(struct uvc_streaming *stream)$/;"	f	file:
+uvc_video_clock_decode	uvc_video.c	/^uvc_video_clock_decode(struct uvc_streaming *stream, struct uvc_buffer *buf,$/;"	f	file:
+uvc_video_clock_host_sof	uvc_video.c	/^static u16 uvc_video_clock_host_sof(const struct uvc_clock_sample *sample)$/;"	f	file:
+uvc_video_clock_init	uvc_video.c	/^static int uvc_video_clock_init(struct uvc_streaming *stream)$/;"	f	file:
+uvc_video_clock_reset	uvc_video.c	/^static void uvc_video_clock_reset(struct uvc_streaming *stream)$/;"	f	file:
+uvc_video_clock_update	uvc_video.c	/^void uvc_video_clock_update(struct uvc_streaming *stream,$/;"	f
+uvc_video_complete	uvc_video.c	/^static void uvc_video_complete(struct urb *urb)$/;"	f	file:
+uvc_video_decode_bulk	uvc_video.c	/^static void uvc_video_decode_bulk(struct uvc_urb *uvc_urb,$/;"	f	file:
+uvc_video_decode_data	uvc_video.c	/^static void uvc_video_decode_data(struct uvc_decode_op *decode,$/;"	f	file:
+uvc_video_decode_data_work	uvc_video.c	/^static void uvc_video_decode_data_work(struct work_struct *work)$/;"	f	file:
+uvc_video_decode_end	uvc_video.c	/^static void uvc_video_decode_end(struct uvc_streaming *stream,$/;"	f	file:
+uvc_video_decode_isoc	uvc_video.c	/^static void uvc_video_decode_isoc(struct uvc_urb *uvc_urb,$/;"	f	file:
+uvc_video_decode_start	uvc_video.c	/^static int uvc_video_decode_start(struct uvc_streaming *stream,$/;"	f	file:
+uvc_video_enable	uvc_video.c	/^int uvc_video_enable(struct uvc_streaming *stream, int enable)$/;"	f
+uvc_video_encode_bulk	uvc_video.c	/^static void uvc_video_encode_bulk(struct uvc_urb *uvc_urb,$/;"	f	file:
+uvc_video_encode_data	uvc_video.c	/^static int uvc_video_encode_data(struct uvc_streaming *stream,$/;"	f	file:
+uvc_video_encode_header	uvc_video.c	/^static int uvc_video_encode_header(struct uvc_streaming *stream,$/;"	f	file:
+uvc_video_get_ts	uvc_video.c	/^static inline void uvc_video_get_ts(struct timespec *ts)$/;"	f	file:
+uvc_video_init	uvc_video.c	/^int uvc_video_init(struct uvc_streaming *stream)$/;"	f
+uvc_video_queue	uvcvideo.h	/^struct uvc_video_queue {$/;"	s
+uvc_video_resume	uvc_video.c	/^int uvc_video_resume(struct uvc_streaming *stream, int reset)$/;"	f
+uvc_video_stats_decode	uvc_video.c	/^static void uvc_video_stats_decode(struct uvc_streaming *stream,$/;"	f	file:
+uvc_video_stats_dump	uvc_video.c	/^size_t uvc_video_stats_dump(struct uvc_streaming *stream, char *buf,$/;"	f
+uvc_video_stats_start	uvc_video.c	/^static void uvc_video_stats_start(struct uvc_streaming *stream)$/;"	f	file:
+uvc_video_stats_stop	uvc_video.c	/^static void uvc_video_stats_stop(struct uvc_streaming *stream)$/;"	f	file:
+uvc_video_stats_update	uvc_video.c	/^static void uvc_video_stats_update(struct uvc_streaming *stream)$/;"	f	file:
+uvc_video_suspend	uvc_video.c	/^int uvc_video_suspend(struct uvc_streaming *stream)$/;"	f
+uvc_video_validate_buffer	uvc_video.c	/^static void uvc_video_validate_buffer(const struct uvc_streaming *stream,$/;"	f	file:
+uvc_warn_once	uvcvideo.h	655;"	d
+v4l2_type	uvcvideo.h	/^	enum v4l2_ctrl_type v4l2_type;$/;"	m	struct:uvc_control_mapping	typeref:enum:uvc_control_mapping::v4l2_ctrl_type
+vary	testApp.h	/^	uint32_t		vary;$/;"	m	struct:usbtest_param_32
+vary	testApp.h	/^	uint32_t		vary;$/;"	m	struct:usbtest_param_64
+vary	usbtest.h	/^	__u32		vary;$/;"	m	struct:usbtest_param_32
+vary	usbtest.h	/^	__u32		vary;$/;"	m	struct:usbtest_param_64
+vdev	uvcvideo.h	/^	struct v4l2_device vdev;$/;"	m	struct:uvc_device	typeref:struct:uvc_device::v4l2_device
+vdev	uvcvideo.h	/^	struct video_device *vdev;$/;"	m	struct:uvc_entity	typeref:struct:uvc_entity::video_device
+vdev	uvcvideo.h	/^	struct video_device vdev;$/;"	m	struct:uvc_streaming	typeref:struct:uvc_streaming::video_device
+vendor	usbtest.c	/^static unsigned short vendor =0x2084;$/;"	v	file:
+verify_halted	usbtest.c	/^static int verify_halted(struct usbtest_dev *tdev, int ep, struct urb *urb)$/;"	f	file:
+verify_not_halted	usbtest.c	/^static int verify_not_halted(struct usbtest_dev *tdev, int ep, struct urb *urb)$/;"	f	file:
+vfh	uvcvideo.h	/^	struct v4l2_fh vfh;$/;"	m	struct:uvc_fh	typeref:struct:uvc_fh::v4l2_fh
+wHeight	uvcvideo.h	/^	__u16 wHeight;$/;"	m	struct:uvc_frame
+wMaxMultiplier	uvcvideo.h	/^			__u16 wMaxMultiplier;$/;"	m	struct:uvc_entity::__anon1::__anon5
+wObjectiveFocalLengthMax	uvcvideo.h	/^			__u16 wObjectiveFocalLengthMax;$/;"	m	struct:uvc_entity::__anon1::__anon2
+wObjectiveFocalLengthMin	uvcvideo.h	/^			__u16 wObjectiveFocalLengthMin;$/;"	m	struct:uvc_entity::__anon1::__anon2
+wOcularFocalLength	uvcvideo.h	/^			__u16 wOcularFocalLength;$/;"	m	struct:uvc_entity::__anon1::__anon2
+wWidth	uvcvideo.h	/^	__u16 wWidth;$/;"	m	struct:uvc_frame
+warnings	uvcvideo.h	/^	unsigned long warnings;$/;"	m	struct:uvc_device
+work	uvcvideo.h	/^	struct work_struct work;$/;"	m	struct:uvc_urb	typeref:struct:uvc_urb::work_struct
